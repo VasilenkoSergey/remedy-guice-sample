@@ -1,0 +1,1 @@
+# Sample BMC Remedy plugin using guice di library
