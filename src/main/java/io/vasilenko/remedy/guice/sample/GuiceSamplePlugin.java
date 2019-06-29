@@ -3,11 +3,11 @@ package io.vasilenko.remedy.guice.sample;
 import com.bmc.arsys.api.Value;
 import com.bmc.arsys.pluginsvr.plugins.ARFilterAPIPlugin;
 import com.bmc.arsys.pluginsvr.plugins.ARPluginContext;
+import com.bmc.thirdparty.org.slf4j.Logger;
+import com.bmc.thirdparty.org.slf4j.LoggerFactory;
 import com.google.inject.Guice;
 import io.vasilenko.remedy.guice.sample.di.PluginModule;
 import io.vasilenko.remedy.guice.sample.service.PluginService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import javax.inject.Inject;
 import java.util.ArrayList;
